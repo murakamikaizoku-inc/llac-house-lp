@@ -1177,6 +1177,17 @@ p {
   margin-bottom: var(--spacing-xs);
 }
 
+.footer-link {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
 .footer-bottom {
   padding-top: var(--spacing-lg);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
