@@ -1,0 +1,10 @@
+# robots.txt for llac-house.me
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.llac-house.me/sitemap.xml
+
+# Disallow admin or private areas (if any in future)
+# Disallow: /admin/
